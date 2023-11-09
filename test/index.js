@@ -6,7 +6,7 @@ async function test_get_channels() {
         80,
         'http',
         'admin',
-        'clounode123',
+        'admin123',
     );
     const channel_list = await hik_device.get_all_channels();
     console.log(channel_list);
