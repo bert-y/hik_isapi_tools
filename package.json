@@ -1,0 +1,28 @@
+{
+  "name": "hik_isapi_tools",
+  "version": "1.0.0",
+  "description": "hikvision isapi nodejs tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bert-y/hik_isapi_tools.git"
+  },
+  "keywords": [
+    "hikvision",
+    "isapi",
+    "nodejs"
+  ],
+  "author": "bert-y",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bert-y/hik_isapi_tools/issues"
+  },
+  "homepage": "https://github.com/bert-y/hik_isapi_tools#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "xml2js": "^0.6.2"
+  }
+}
